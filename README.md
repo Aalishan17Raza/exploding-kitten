@@ -3,6 +3,8 @@
 `Node Version - 20.11.0`
 `npm Version - 9.7.2`
 
+use `git clone https://github.com/Aalishan17Raza/exploding-kitten.git` to get all the files in your local system.
+
 use `npm install` to install the dependencies
 
 use `npm run dev` to start the application
