@@ -1,0 +1,24 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import {
+  BrowserRouter
+} from "react-router-dom";
+import { store } from './app/Store.js';
+import { Provider } from 'react-redux'
+
+const unsubscribe = store.subscribe(() => {
+  console.log(store.getState());
+});
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </BrowserRouter>
+  </React.StrictMode>,
+)

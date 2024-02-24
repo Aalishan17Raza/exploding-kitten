@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  background-color: #EEEDEB;
+  font-family: "Inter", sans-serif;
+}
+
+.heading {
+  color: #3C3633;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+
+.heading a {
+  text-decoration: none;
+  color: #3C3633;
+}
+
+.start-game-form form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  align-items: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.start-game-form button {
+  border: none;
+  background-color: #747264;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: #EEEDEB;
+  width: 70%;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.start-game-form input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.start-game-form span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.GamePage div img {
+  height: 250px;
+  border-radius: 10px;
+  border: 1px solid #747264;
+}
+
+.GamePage div {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.GamePage {
+  display: flex;
+  justify-content: center;
+}
+
+.showHand{
+  display: flex;
+}
+
+.showHand div img {
+  height: 150px;
+  width: 100px;
+  border-radius: 10px;
+  border: 1px solid #747264;
+}
+
+.restart button{
+  border: none;
+  background-color: #747264;
+  padding: 15px;
+  border-radius: 20px;
+  color: #EEEDEB;
+  cursor: pointer;
+}
